@@ -18,7 +18,7 @@ namespace Vehicle_Rental_System
 
         public Car(string make, string model, int year, double dailyRate, int numPassengers) : base(make, model, year, dailyRate)
         {
-            this.numPassengers = numPassengers;
+            NumPassengers = numPassengers;
         }
 
         public override double CalculateRentalCost(int days)
